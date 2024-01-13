@@ -30,7 +30,7 @@ const TodoInputComponent = ({ onAddTodo, onSearch, onClearSearch }) => {
         onChange={(e) => setNewTodoTitle(e.target.value)}
       />
       <button type="button" className="add" onClick={handleAddTodo}>
-        Add
+        add
       </button>
 
       <div className="search-container">
